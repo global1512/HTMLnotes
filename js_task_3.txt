@@ -1,0 +1,87 @@
+<!-- Write a program to take an alphabet from the user and check if it is a vowel or a consonant -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vowels and Consonants</title>
+</head>
+<body>
+
+  <script>
+    var a = prompt("Enter an alphabet to check for vowels and consonants:");
+    if(a != null)
+    {
+      if(a == "a" || a == "A")
+      {
+        document.write("Enter letter " + a + " is a vowel.");
+      }
+      else if(a == "e" || a == "E")
+      {
+        document.write("Enter letter " + a + " is a vowel.");
+      }
+      else if(a == "i" || a == "I")
+      {
+        document.write("Enter letter " + a + " is a vowel.");
+      }
+      else if(a == "o" || a == "O")
+      {
+        document.write("Enter letter " + a + " is a vowel.");
+      }
+      else if(a == "u" || a == "U")
+      {
+        document.write("Enter letter " + a + " is a vowel.");
+      }
+      else
+      {
+        document.write("Enter letter " + a + " is a consonant.");
+      }
+    }
+    else
+    {
+      document.write("Invalid Input");
+    }
+  </script>
+  
+</body>
+</html>
+
+
+-----------------------------------------------------------------------------------------------
+
+<!-- Write a program to take an amount from the user and perform a currency conversion between USD and INR -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Convertor</title>
+</head>
+<body>
+  
+  <script>
+    var amt = eval(prompt("Enter Amount for currency conversion:"));
+    var num = eval(prompt("Enter Your Choice:\n1) USD to INR.\n2) INR to USD."));
+    var c
+    if(num == 1)
+    {
+      c = amt/83.69;
+      document.write("Amount in INR is " + c);
+    }
+    else if(num == 2)
+    {
+      c = amt*83.69;
+      document.write("Amount in USD is " + c);
+    }
+    else
+    {
+      document.write("Invalid Input.");
+    }
+  </script>
+
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------------
